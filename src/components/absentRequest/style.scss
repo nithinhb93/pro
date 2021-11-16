@@ -1,0 +1,42 @@
+.absent-request-main-body {
+    width: 100% !important;
+    height: 100%;
+    padding: 1.5rem !important;
+    overflow: hidden;
+}
+
+.absent-request-check-box-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    // margin-top: 1rem!important; 
+}
+
+.absent-request-check-box-btn {
+    text-transform: capitalize !important;
+    width: 9rem !important;
+}
+
+.absent-request-date-picker-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 1rem!important; 
+}
+
+.absent-request-date-picket-input {
+    width: 9rem !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .absent-request-main-body {
+        padding: 2rem !important;
+    }
+    .absent-request-check-box-btn {
+        width: 12rem !important;
+    }
+    .absent-request-date-picket-input {
+        width: 12rem !important;
+    }
+}
+  
